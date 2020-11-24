@@ -34,7 +34,7 @@ const Navbar = ({ toggle }) => {
 	};
 
 	return (
-		<IconContext.Provider value={{ color: '#fff' }}>
+		<IconContext.Provider value={{ color: '#002e41' }}>
 			<Nav scrollNav={scrollNav}>
 				<NavbarContainer>
 					<NavLogo to="/" onClick={toggleHome}>
@@ -45,31 +45,36 @@ const Navbar = ({ toggle }) => {
 					</MobileIcon>
 					<NavMenu>
 						<NavItem>
-							<NavLinks to="about" smooth={true} duration={500} spy={true} exact="true" offset={-80}>
-								About
+							<NavLinks to="hello" smooth={true} duration={500} spy={true} exact="true" offset={-80}>
+								Say Hello!
 							</NavLinks>
 						</NavItem>
 						<NavItem>
-							<NavLinks to="discover" smooth={true} duration={500} spy={true} exact="true" offset={-80}>
-								Discover
+							<NavLinks to="momma" smooth={true} duration={500} spy={true} exact="true" offset={-80}>
+								Momma
 							</NavLinks>
 						</NavItem>
 
 						<NavItem>
-							<NavLinks to="services" smooth={true} duration={500} spy={true} exact="true" offset={-80}>
-								Services
+							<NavLinks to="babies" smooth={true} duration={500} spy={true} exact="true" offset={-80}>
+								Babies
 							</NavLinks>
 						</NavItem>
 						<NavItem>
-							<NavLinks to="signup" smooth={true} duration={500} spy={true} exact="true" offset={-80}>
-								Sign Up
+							<NavLinks to="dadi" smooth={true} duration={500} spy={true} exact="true" offset={-80}>
+								Dadi
+							</NavLinks>
+						</NavItem>
+						<NavItem>
+							<NavLinks to="withlove" smooth={true} duration={500} spy={true} exact="true" offset={-80}>
+								With Love
 							</NavLinks>
 						</NavItem>
 					</NavMenu>
 
-					<NavBtn>
+					{/* <NavBtn>
 						<NavBtnLink to="/signin">Sign In</NavBtnLink>
-					</NavBtn>
+					</NavBtn> */}
 				</NavbarContainer>
 			</Nav>
 		</IconContext.Provider>

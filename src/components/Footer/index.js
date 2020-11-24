@@ -24,45 +24,46 @@ const Footer = () => {
 				<FooterLinksContainer>
 					<FooterLinksWrapper>
 						<FooterLinkItems>
-							<FooterLinkTitle> About Us</FooterLinkTitle>
-							<FooterLink to="/">How it works</FooterLink>
-							<FooterLink to="/">Testimonials</FooterLink>
-							<FooterLink to="/">Careers</FooterLink>
-							<FooterLink to="/">Investors</FooterLink>
-							<FooterLink to="/">Terms of Service</FooterLink>
+							<FooterLinkTitle> The Pandas</FooterLinkTitle>
+							<FooterLink to="/">Jovi</FooterLink>
+							<FooterLink to="/">Khushi</FooterLink>
+							<FooterLink to="/">Dadi</FooterLink>
+							<FooterLink to="/">Momma</FooterLink>
+							<FooterLink to="/">Poppa</FooterLink>
 						</FooterLinkItems>
 
 						<FooterLinkItems>
-							<FooterLinkTitle> Videos</FooterLinkTitle>
-							<FooterLink to="/">How it works</FooterLink>
-							<FooterLink to="/">Testimonials</FooterLink>
-							<FooterLink to="/">Careers</FooterLink>
-							<FooterLink to="/">Investors</FooterLink>
-							<FooterLink to="/">Terms of Service</FooterLink>
+							<FooterLinkTitle>Netflix & Amazon</FooterLinkTitle>
+							<FooterLink to="/">Crown</FooterLink>
+							<FooterLink to="/">Young Sheldon</FooterLink>
+							<FooterLink to="/">Brooklyn nine-nine</FooterLink>
+							<FooterLink to="/">Suits</FooterLink>
+							<FooterLink to="/">Madam Secretary</FooterLink>
 						</FooterLinkItems>
 					</FooterLinksWrapper>
 
 					<FooterLinksWrapper>
 						<FooterLinkItems>
-							<FooterLinkTitle> Contact Us</FooterLinkTitle>
-							<FooterLink to="/">How it works</FooterLink>
-							<FooterLink to="/">Testimonials</FooterLink>
-							<FooterLink to="/">Careers</FooterLink>
-							<FooterLink to="/">Investors</FooterLink>
-							<FooterLink to="/">Terms of Service</FooterLink>
+							<FooterLinkTitle> Apps that made it to your year</FooterLinkTitle>
+							<FooterLink to="/">Instagram</FooterLink>
+							<FooterLink to="/">Bloomberg</FooterLink>
+							<FooterLink to="/">Kite</FooterLink>
+							<FooterLink to="/">Amazon Music</FooterLink>
 						</FooterLinkItems>
 
 						<FooterLinkItems>
-							<FooterLinkTitle> Business</FooterLinkTitle>
-							<FooterLink to="/">Brightcom</FooterLink>
-							<FooterLink to="/">Advice</FooterLink>
+							<FooterLinkTitle> Artists</FooterLinkTitle>
+							<FooterLink to="/">U2</FooterLink>
+							<FooterLink to="/">Sia</FooterLink>
+							<FooterLink to="/">Santana</FooterLink>
+							<FooterLink to="/">Yanni</FooterLink>
 						</FooterLinkItems>
 					</FooterLinksWrapper>
 				</FooterLinksContainer>
 
 				<SocialMedia>
 					<SocialMediaWrap>
-						<SocialLogo to="/">dolla</SocialLogo>
+						<SocialLogo to="/">Pandas</SocialLogo>
 						<WebsiteRights>Gandhi © {new Date().getFullYear()} All Rights Reserved</WebsiteRights>
 						<SocialIcons>
 							<SocialIconLink href="/" target="_blank" area-label="Facebook">

@@ -10,7 +10,7 @@ import {
 	ArrowRight,
 	HeroBtnWrapper
 } from './HeroElements';
-import Video from '../../videos/video.mov';
+import Video from '../../videos/color.mp4';
 import { Button } from '../ButtonElement';
 
 const HeroSection = () => {
@@ -29,7 +29,7 @@ const HeroSection = () => {
 				<HeroH1>Happy Birthday Poppyyyy</HeroH1>
 				<HeroP> Welcome to your own personal page!</HeroP>
 				<HeroBtnWrapper>
-					<Button primary="true" dark="true" onMouseEnter={onHover} onMouseLeave={onHover} to="signup">
+					<Button primary="true" dark="true" onMouseEnter={onHover} onMouseLeave={onHover} to="hello">
 						Get Started {hover ? <ArrowForward /> : <ArrowRight />}
 					</Button>
 				</HeroBtnWrapper>
