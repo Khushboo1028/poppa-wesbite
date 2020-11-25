@@ -33,14 +33,14 @@ export const InfoRow = styled.div`
 `;
 
 export const Column1 = styled.div`
-	margin-bottom: 15px;
-	padding: 0 15px;
+	margin-bottom: 1px;
+	padding: 0 1px;
 	grid-area: col1;
 `;
 
 export const Column2 = styled.div`
-	margin-bottom: 15px;
-	padding: 0 15px;
+	margin-bottom: 1px;
+	padding: 0 1px;
 	grid-area: col2;
 `;
 
@@ -76,7 +76,7 @@ export const Subtitle = styled.p`
 	max-width: 440px;
 	margin-bottom: 35px;
 	font-size: 24px;
-	line-height: 28px;
+	line-height: 24px;
 	font-weight: bold;
 	color: ${({ darkText }) => (darkText ? '#010606' : '#fff')};
 `;
